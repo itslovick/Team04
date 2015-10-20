@@ -19,7 +19,7 @@ public class Premium extends Customer implements Membership{
  */
 	@Override
 	public String getCost() {
-		return("Cost = ", );
+		return("Cost = "+Membership.Premium+" / month"+"\n 2 games /month" );
 		
 		
 	}

@@ -30,6 +30,7 @@ public interface Membership
 	
 	public static final double Premium  = 10.00;
 	public static final double Gamer = 7.99;
+	public static final double Free = 0.00;
 	
             
 }

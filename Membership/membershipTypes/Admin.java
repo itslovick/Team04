@@ -20,9 +20,8 @@ public class Admin extends Customer implements Membership {
 	 * @see membershipTypes.Membership#getCost()
 	 */
 	@Override
-	public int getCost() {
-		// TODO Auto-generated method stub
-		return 0;
+	public String getCost() {
+		return ("You're cost is: " + Membership.Free+" / month");
 	}
 /*
  * @see membershipTypes.Membership#getDueDate()

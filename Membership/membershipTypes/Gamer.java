@@ -17,9 +17,8 @@ public class Gamer extends Customer implements Membership {
  * @see membershipTypes.Membership#getCost()
  */
 	@Override
-	public int getCost() {
-		// TODO Auto-generated method stub
-		return 0;
+	public String getCost() {
+		return("Cost = "+Membership.Gamer+" / month"+"\n 2 games /month" );
 	}
 /*
  * @see membershipTypes.Membership#getDueDate()
