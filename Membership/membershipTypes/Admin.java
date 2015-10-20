@@ -8,6 +8,7 @@ public class Admin extends Customer implements Membership {
 
 	/*
 	 * @see membershipTypes.Membership#getCheckOut()
+	 * From override allow admin to input items directly into a users 
 	 */
 	@Override
 	public int getCheckOut() {

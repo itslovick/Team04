@@ -18,7 +18,7 @@ public interface Membership
     /*
      * 
      */
-	int getCost();
+	String getCost();
     /*
      * 
      */
@@ -27,5 +27,9 @@ public interface Membership
      * 
      */
 	String getBasket();
+	
+	public static final double Premium  = 10.00;
+	public static final double Gamer = 7.99;
+	
             
 }

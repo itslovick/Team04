@@ -18,9 +18,10 @@ public class Premium extends Customer implements Membership{
  * @see membershipTypes.Membership#getCost()
  */
 	@Override
-	public int getCost() {
-		// TODO Auto-generated method stub
-		return 0;
+	public String getCost() {
+		return("Cost = ", );
+		
+		
 	}
 /*
  * @see membershipTypes.Membership#getDueDate()
