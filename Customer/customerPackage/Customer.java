@@ -4,27 +4,23 @@ package customerPackage;
 
 public class Customer 
 {
+	
    protected String firstName;
    protected String lastName;
    protected String middleInitial;
    protected String email;
    protected int memberType;
+   public String[][] out;
+  
    
    public Customer()
    {
-       firstName = null;
-       lastName = null;
-       middleInitial = null;
-       email = null;
-       memberType = 0;   
-   }
-   
-   public Customer(String firstName, String lastName, String middleInitial, String email, int memberType){
-	   setFirstName(firstName);
-	   setLastName(lastName);
-	   setMiddleInitial(middleInitial);
-	   setEmailAddress(email);
-	   setMemberType(memberType);
+       firstName = " ";
+       lastName = " ";
+       middleInitial = " ";
+       email = " ";
+       memberType = 0;
+       out = new String[4][3];
    }
    
    public void setFirstName(String fName)
