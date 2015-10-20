@@ -12,9 +12,9 @@ package membershipTypes;
 public interface Membership
 {
     /*
-     * 
+     * Places game information in to out array for user.
      */
-	int getCheckOut();
+	void getCheckOut();
     /*
      * 
      */
@@ -24,7 +24,7 @@ public interface Membership
      */
 	String getDueDate();
     /*
-     * 
+     * Don't need basket.
      */
 	String getBasket();
 	

@@ -11,9 +11,8 @@ public class Admin extends Customer implements Membership {
 	 * From override allow admin to input items directly into a users 
 	 */
 	@Override
-	public int getCheckOut() {
+	public void getCheckOut() {
 		// TODO Auto-generated method stub
-		return 0;
 	}
 
 	/*
@@ -40,6 +39,7 @@ public class Admin extends Customer implements Membership {
 	}
 /*
  * @see membershipTypes.Membership#getBasket()
+ * Don't need basket.
  */
 	@Override
 	public String getBasket() {
